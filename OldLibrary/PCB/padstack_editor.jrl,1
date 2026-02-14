@@ -1,0 +1,20 @@
+\t (00:00:01) padstack_editor 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Sep 20 21:55:24 2024
+\t (00:00:01)         Host=COMPUTER User=TZH Pid=2008 CPUs=12
+\t (00:00:01) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\padstack_editor.exe F:\OneDrive\Projects\PCB\LIB\PCB\0402.pad
+\t (00:00:01) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "¸¨Öú×ê¿×"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿× Symbol"
+\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged "¸¨Öú×ê¿×"
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
+\d (00:00:15) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\d (00:00:16) QtFillin Yes
+\w (00:00:16) WARNING(SPMHUT-48): ±ê¶¨ÖµÒÑÉáÈë¡£
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged "¸¨Öú×ê¿×"
+\d (00:00:20) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿× Symbol"
+\d (00:00:22) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
+\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
+\d (00:00:40) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
+\d (00:01:26) QtFillin No
+\t (00:01:26)     Journal end - Fri Sep 20 21:56:49 2024

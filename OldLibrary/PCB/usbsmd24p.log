@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : USBSMD24P.dra                                 )
+(    Software Version : 17.4S037                                      )
+(    Date/Time        : Mon Aug  5 22:37:16 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/OneDrive/Projects/PCB/LIB/PCB
+    Name      = usbsmd24p.psm
+    User      = TZH
+    Machine   = COMPUTER
+
+
+创建 Symbol 已开始。
+ 
+
+创建 Symbol 完成。
+

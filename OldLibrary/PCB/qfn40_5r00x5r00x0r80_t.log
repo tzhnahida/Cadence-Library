@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN40_5R00X5R00X0R80_T.dra                    )
+(    Software Version : 17.4S037                                      )
+(    Date/Time        : Wed Jul 31 21:53:54 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/OneDrive/Projects/PCB/LIB/PCB
+    Name      = qfn40_5r00x5r00x0r80_t.psm
+    User      = TZH
+    Machine   = COMPUTER
+
+
+创建 Symbol 已开始。
+ 
+
+创建 Symbol 完成。
+

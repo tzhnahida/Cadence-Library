@@ -1,0 +1,11 @@
+\t (00:00:01) padstack_editor 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Sep 20 22:04:23 2024
+\t (00:00:01)         Host=COMPUTER User=TZH Pid=19292 CPUs=12
+\t (00:00:01) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\padstack_editor.exe F:\OneDrive\Projects\PCB\LIB\PCB\0402.pad
+\t (00:00:01) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "钻孔"
+\d (00:00:06) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\d (00:00:08) QtFillin Yes
+\w (00:00:08) WARNING(SPMHUT-48): 标定值已舍入。
+\d (00:02:39) QtFillin No
+\t (00:02:39)     Journal end - Fri Sep 20 22:07:01 2024

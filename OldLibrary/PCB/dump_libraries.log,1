@@ -1,0 +1,30 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S037                                      )
+(    Date/Time        : Wed Jul 31 23:05:21 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: F:/OneDrive/Projects/PCB/LIB/PCB/QFN40_5R00X5R00X0R80_T.dra ***
+
+
+
+  *** Creating padstacks. ***
+
+  RX8Y32D0T being dumped.
+
+  RX146Y146D0T being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                2
+
+Total number of symbols dumped:            0
+*****************************************************
+

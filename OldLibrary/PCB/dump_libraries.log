@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S037                                      )
+(    Date/Time        : Mon Aug  5 22:37:22 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: F:/OneDrive/Projects/PCB/LIB/PCB/USBSMD24P.dra ***
+
+
+
+  *** Creating padstacks. ***
+
+  PTH_O394X906SLOT236X748S1 being dumped.
+
+  PTH_O394X669SLOT197X472S2 being dumped.
+
+  PTH_O394X768SLOT197X591S2 being dumped.
+
+  SMD_R118X374S1 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                4
+
+Total number of symbols dumped:            0
+*****************************************************
+

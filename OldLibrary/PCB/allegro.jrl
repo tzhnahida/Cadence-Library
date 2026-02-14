@@ -1,0 +1,913 @@
+\t (00:00:01) allegro 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Aug  5 22:31:06 2024
+\t (00:00:01)         Host=COMPUTER User=TZH Pid=1792 CPUs=12
+\t (00:00:01) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe F:\OneDrive\Projects\PCB\LIB\PCB\USBSMD24P.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) *Error* load: can't access file - "x_silk_in_out.il"
+   (00:00:01) function x_get_sym_bbox redefined
+   (00:00:01) function loginshow redefined
+   (00:00:01) function TimeOrder redefined
+   (00:00:01) function create_loginshow_form_file redefined
+   (00:00:01) function getskillpasslist redefined
+   (00:00:01) function getskilllist redefined
+   (00:00:01) function loginshow_form_action redefined
+   (00:00:01) function strlenlessp redefined
+   (00:00:01) function CaptureImage redefined
+   (00:00:01) function Save_Database redefined
+   (00:00:01) function GotMonthTable redefined
+   (00:00:01) function Property_Viewer redefined
+   (00:00:01) function SkillLoader redefined
+   (00:00:01) function tait_logoThumbnail redefined
+   (00:00:01) *Error* load: can't access file - "val_c"
+   (00:00:01) *Error* load: can't access file - "val_o"
+   (00:00:01) *Error* load: can't access file - "xgird.il"
+   (00:00:01) function jfhGetRefIDComDir redefined
+   (00:00:01) function jfhRotateTopRef redefined
+   (00:00:01) function jfhRotateBtmRef redefined
+   (00:00:01) function jfhRotateTopRefIr redefined
+   (00:00:01) function jfhRotateBtmRefIr redefined
+   (00:00:01) function ref redefined
+   (00:00:01) function jfhrotaterefIr redefined
+   (00:00:01) function check_text_overlap redefined
+   (00:00:01) function biuld_form redefined
+   (00:00:01) function pform_Action redefined
+   (00:00:01) function refdes_on_pad redefined
+   (00:00:01) function barcode_overlap_atom redefined
+   (00:00:01) function refdes_overlap_component redefined
+   (00:00:01) function text_overlap_text redefined
+   (00:00:01) function text_on_pad redefined
+   (00:00:01) function text_on_testpoints redefined
+   (00:00:01) function get_bar_code_box redefined
+   (00:00:01) function getbox redefined
+   (00:00:01) function text_on_text redefined
+   (00:00:01) function unselect_object redefined
+   (00:00:01) function turn_on_layer redefined
+   (00:00:01) function init_loc_text redefined
+   (00:00:01) function add_loc_text redefined
+   (00:00:01) function location_text redefined
+   (00:00:01) function location_prv redefined
+   (00:00:01) function x_dump_lib redefined
+   (00:00:01) function x_ro_sel_refdes redefined
+   (00:00:01) function x_move_sel_refdes redefined
+   (00:00:01) function x_get_sym_bbox redefined
+   (00:00:01) function x_align_symbol redefined
+   (00:00:01) function x_sym_align_left redefined
+   (00:00:01) function x_sym_align_right redefined
+   (00:00:01) function x_sym_align_up redefined
+   (00:00:01) function x_sym_align_down redefined
+   (00:00:01) function x_sym_align_hcenter redefined
+   (00:00:01) function x_sym_align_vcenter redefined
+   (00:00:01) function x_sym_align_undo redefined
+   (00:00:01) function x_get_sym_bbox redefined
+   (00:00:01) function x_split_shape redefined
+   (00:00:01) *Error* load: can't access file - "D:/skill/ch_ref.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/ch_text_overlap.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/change_net_onvias.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/check_dir.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/conv.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/dumplib.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/orphannet.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/quick_view.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_mc_ro_text.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/replace_via.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/scalpel.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_align_symbol.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_cline2shape.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_split_shape.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/gridsa.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/fform.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_check_line90.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_change_lw.il"
+   (00:00:01) *Error* load: can't access file - "C:/SPB_Data/pcbenv/HZ$D.172.443/Jun_SkillLoad.il"
+   (00:00:01) *Error* eval: undefined function - Jun_SkillLoad
+\t (00:00:01) Opening existing design...
+\d (00:00:01) Design opened: F:/OneDrive/Projects/PCB/LIB/PCB/USBSMD24P.dra
+\i (00:00:02) trapsize 669
+\i (00:00:02) trapsize 687
+\i (00:00:02) trapsize 1388
+\i (00:00:02) trapsize 1350
+\i (00:00:02) strokefile allegro 
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 96.00 58.19
+\i (00:00:11) trapsize 675
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -295.60 58.20
+\i (00:00:11) trapsize 338
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -295.60 58.20
+\i (00:00:11) trapsize 169
+\i (00:00:12) roam start
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y 16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y 16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam x 32
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 48
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 48
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam end
+\i (00:00:15) roam start
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 48
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 32
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 32
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 32
+\i (00:00:15) roam y 32
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y -16
+\i (00:00:16) roam end
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out -148.43 55.48
+\i (00:00:19) trapsize 338
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out -148.43 55.48
+\i (00:00:19) trapsize 675
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out -483.27 55.48
+\i (00:00:19) trapsize 1350
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out -279.40 166.22
+\i (00:00:19) trapsize 1350
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in -276.70 163.52
+\i (00:00:19) trapsize 675
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in -481.95 163.52
+\i (00:00:19) trapsize 338
+\i (00:00:20) roam start
+\i (00:00:20) roam y 16
+\i (00:00:20) roam x 16
+\i (00:00:20) roam y 16
+\i (00:00:20) roam x 16
+\i (00:00:20) roam y 48
+\i (00:00:20) roam x 16
+\i (00:00:20) roam y 32
+\i (00:00:20) roam x 32
+\i (00:00:20) roam y 32
+\i (00:00:20) roam x 48
+\i (00:00:20) roam y 16
+\i (00:00:20) roam x 32
+\i (00:00:20) roam y 16
+\i (00:00:20) roam x 48
+\i (00:00:20) roam x 32
+\i (00:00:20) roam x 32
+\i (00:00:20) roam x 48
+\i (00:00:20) roam x 32
+\i (00:00:20) roam x 16
+\i (00:00:20) roam end
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in -108.58 37.93
+\i (00:00:24) trapsize 169
+\i (00:00:27) setwindow form.mini
+\i (00:00:27) FORM mini class ANALYSIS 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) color192 
+\i (00:00:34) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:35) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:35) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:36) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:00:37) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:00:38) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:00:38) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:42) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:48) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pin_Number" 0
+\i (00:00:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:00:49) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 28
+\i (00:00:49) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pin_Number" 1
+\i (00:00:49) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:00:52) zoom out 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom out 91.27 12.61
+\i (00:00:52) trapsize 338
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 75.74 36.24
+\i (00:00:52) trapsize 169
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in -100.81 128.40
+\i (00:00:56) trapsize 84
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in -100.82 128.41
+\i (00:00:56) trapsize 42
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in -100.82 128.41
+\i (00:00:57) trapsize 21
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in -100.82 128.42
+\i (00:00:57) trapsize 11
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in -100.82 128.42
+\i (00:00:57) trapsize 5
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out -100.80 128.40
+\i (00:00:57) trapsize 11
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out -100.80 128.40
+\i (00:00:57) trapsize 21
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out -100.82 128.41
+\i (00:00:57) trapsize 42
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out -100.81 128.42
+\i (00:00:57) trapsize 84
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out -100.81 128.41
+\i (00:00:57) trapsize 169
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in -92.37 74.69
+\i (00:00:58) trapsize 84
+\i (00:01:09) zoom out 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom out -55.36 35.15
+\i (00:01:09) trapsize 169
+\i (00:01:09) zoom out 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom out -55.37 35.15
+\i (00:01:09) trapsize 338
+\i (00:01:10) zoom in 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom in -245.97 81.78
+\i (00:01:10) trapsize 169
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out -156.08 41.23
+\i (00:01:12) trapsize 338
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out -156.08 41.24
+\i (00:01:12) trapsize 676
+\i (00:01:13) roam start
+\i (00:01:13) roam x 16
+\i (00:01:13) roam y 16
+\i (00:01:13) roam y 48
+\i (00:01:13) roam y 16
+\i (00:01:13) roam y 32
+\i (00:01:13) roam y 16
+\i (00:01:13) roam end
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 163.13 -95.06
+\i (00:01:14) trapsize 338
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 160.42 -94.38
+\i (00:01:14) trapsize 169
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 175.63 -87.28
+\i (00:01:19) trapsize 338
+\i (00:01:23) zoom in 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in -201.51 60.06
+\i (00:01:23) trapsize 169
+\i (00:01:23) zoom in 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in -201.51 60.06
+\i (00:01:23) trapsize 84
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -198.47 58.04
+\i (00:01:24) trapsize 169
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -198.47 58.04
+\i (00:01:24) trapsize 338
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -198.47 58.03
+\i (00:01:24) trapsize 676
+\i (00:01:24) zoom in 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom in -382.18 68.85
+\i (00:01:24) trapsize 338
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in -310.54 86.42
+\i (00:01:25) trapsize 169
+\i (00:01:25) roam start
+\i (00:01:25) roam x 16
+\i (00:01:25) roam x 48
+\i (00:01:25) roam y 16
+\i (00:01:25) roam x 96
+\i (00:01:25) roam y 16
+\i (00:01:25) roam x 96
+\i (00:01:25) roam y 16
+\i (00:01:25) roam x 96
+\i (00:01:25) roam y 16
+\i (00:01:25) roam x 112
+\i (00:01:25) roam y 16
+\i (00:01:25) roam x 64
+\i (00:01:25) roam y 16
+\i (00:01:25) roam x 64
+\i (00:01:25) roam x 48
+\i (00:01:25) roam y 16
+\i (00:01:26) roam end
+\i (00:01:28) roam start
+\i (00:01:28) roam y 16
+\i (00:01:28) roam y 16
+\i (00:01:28) roam y 32
+\i (00:01:28) roam y 64
+\i (00:01:28) roam x -16
+\i (00:01:28) roam y 64
+\i (00:01:28) roam x -16
+\i (00:01:28) roam y 64
+\i (00:01:28) roam y 80
+\i (00:01:28) roam x -16
+\i (00:01:28) roam y 48
+\i (00:01:28) roam y 32
+\i (00:01:28) roam y 16
+\i (00:01:28) roam y 16
+\i (00:01:28) roam end
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out -100.47 -115.34
+\i (00:01:29) trapsize 338
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out 123.24 -149.80
+\i (00:01:32) trapsize 676
+\i (00:01:33) zoom in 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom in 250.99 -128.18
+\i (00:01:33) trapsize 338
+\i (00:01:33) zoom in 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom in 263.84 -103.17
+\i (00:01:33) trapsize 169
+\i (00:01:33) roam start
+\i (00:01:33) roam x -16
+\i (00:01:33) roam x -48
+\i (00:01:33) roam y -48
+\i (00:01:33) roam x -32
+\i (00:01:33) roam y -48
+\i (00:01:33) roam x -48
+\i (00:01:33) roam y -32
+\i (00:01:33) roam x -32
+\i (00:01:33) roam y -48
+\i (00:01:33) roam x -48
+\i (00:01:33) roam y -48
+\i (00:01:33) roam x -16
+\i (00:01:33) roam y -48
+\i (00:01:33) roam x -16
+\i (00:01:33) roam y -32
+\i (00:01:33) roam x -32
+\i (00:01:33) roam y -48
+\i (00:01:33) roam y -32
+\i (00:01:33) roam y -32
+\i (00:01:33) roam x -16
+\i (00:01:33) roam y -16
+\i (00:01:34) roam y -16
+\i (00:01:34) roam y -16
+\i (00:01:34) roam y -32
+\i (00:01:34) roam y -16
+\i (00:01:34) roam y -32
+\i (00:01:34) roam y -16
+\i (00:01:34) roam x 16
+\i (00:01:34) roam y -16
+\i (00:01:34) roam y -16
+\i (00:01:34) roam end
+\i (00:01:34) zoom in 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in 190.83 90.13
+\i (00:01:34) trapsize 84
+\i (00:01:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:37) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:01:40) color192 
+\i (00:01:45) QtSignal CVDColorTable CVDColorButton2:0 clicked
+\i (00:01:50) QtSignal CVDLayerTable VertHeader clickedButton "Pin_Number"
+\i (00:01:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:01:51) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:01:52) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pin_Number" 1
+\i (00:01:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:01:54) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:01:55) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:02:13) generaledit 
+\i (00:02:14) roam start
+\i (00:02:14) roam x 16
+\i (00:02:14) roam y 16
+\i (00:02:14) roam y 48
+\i (00:02:14) roam y 48
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 48
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 64
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 48
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 48
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 32
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 32
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 16
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 16
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 16
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 16
+\i (00:02:14) roam x -16
+\i (00:02:14) roam y 16
+\i (00:02:14) roam x -32
+\i (00:02:14) roam y 16
+\i (00:02:14) roam x -16
+\i (00:02:14) roam x -48
+\i (00:02:14) roam y 16
+\i (00:02:15) roam x -32
+\i (00:02:15) roam y 16
+\i (00:02:15) roam x -112
+\i (00:02:15) roam y 32
+\i (00:02:15) roam x -80
+\i (00:02:15) roam y 16
+\i (00:02:15) roam x -160
+\i (00:02:15) roam y 32
+\i (00:02:15) roam x -64
+\i (00:02:15) roam y 16
+\i (00:02:15) roam x -112
+\i (00:02:15) roam y 32
+\i (00:02:15) roam x -48
+\i (00:02:15) roam x -80
+\i (00:02:15) roam y 16
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out -24.28 -20.06
+\i (00:02:15) trapsize 169
+\i (00:02:15) roam end
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out -24.28 -20.05
+\i (00:02:15) trapsize 338
+\i (00:02:15) zoom in 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom in -165.55 -96.42
+\i (00:02:15) trapsize 169
+\i (00:02:16) pick grid -167.91 -90.33
+\t (00:02:16) last pick:  -200.00 -100.00
+\i (00:02:16) pick grid dbl -167.91 -90.33
+\t (00:02:16) last pick:  -200.00 -100.00
+\i (00:02:17) pick grid -167.91 -90.33
+\t (00:02:17) last pick:  -200.00 -100.00
+\i (00:02:17) pick grid dbl -167.91 -90.33
+\t (00:02:17) last pick:  -200.00 -100.00
+\i (00:02:18) pick grid -225.36 -96.42
+\t (00:02:18) last pick:  -200.00 -100.00
+\i (00:02:18) prepopup -225.70 -96.75
+\i (00:02:22) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (00:02:22) generaledit 
+\i (00:02:23) pick grid -165.21 -92.36
+\t (00:02:23) last pick:  -200.00 -100.00
+\i (00:02:24) pick grid dbl -165.21 -92.36
+\t (00:02:24) last pick:  -200.00 -100.00
+\i (00:02:24) pick grid -165.21 -92.36
+\t (00:02:24) last pick:  -200.00 -100.00
+\i (00:02:24) pick grid dbl -165.21 -92.36
+\t (00:02:24) last pick:  -200.00 -100.00
+\i (00:02:27) pick grid -203.73 -92.70
+\t (00:02:27) last pick:  -200.00 -100.00
+\i (00:02:28) prepopup -206.10 -40.32
+\i (00:02:31) trapsize 158
+\i (00:02:31) trapsize 157
+\i (00:02:31) trapsize 149
+\i (00:02:31) trapsize 139
+\i (00:02:31) trapsize 138
+\i (00:02:54) apply_setting 'D:`\Cadence`\Cadence`\SPB_17.4`\share/pcb/text/AllToolbars.ini' 
+\i (00:02:54) trapsize 135
+\i (00:02:54) trapsize 138
+\i (00:02:56) pick grid -169.34 -85.94
+\t (00:02:56) last pick:  -200.00 -100.00
+\i (00:02:57) pick grid -169.34 -85.94
+\t (00:02:57) last pick:  -200.00 -100.00
+\i (00:02:57) prepopup -169.34 -85.94
+\i (00:02:59) pick grid -119.80 -66.68
+\t (00:02:59) last pick:  -100.00 -100.00
+\i (00:03:00) zoom out 1 
+\i (00:03:00) setwindow pcb
+\i (00:03:00) zoom out -117.60 -85.94
+\i (00:03:00) trapsize 275
+\i (00:03:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:03:02) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:03:03) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:03:03) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:03:05) pick grid -164.94 -88.69
+\t (00:03:05) last pick:  -200.00 -100.00
+\i (00:03:05) pick grid dbl -164.94 -88.69
+\t (00:03:05) last pick:  -200.00 -100.00
+\i (00:03:06) zoom out 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom out 357.96 -228.50
+\i (00:03:06) trapsize 550
+\i (00:03:07) zoom in 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom in -95.42 122.67
+\i (00:03:07) trapsize 275
+\i (00:03:07) zoom in 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom in -65.15 117.17
+\i (00:03:07) trapsize 138
+\i (00:03:10) pick grid -136.15 101.76
+\t (00:03:10) last pick:  -100.00 100.00
+\i (00:03:10) pick grid dbl -136.15 101.76
+\t (00:03:10) last pick:  -100.00 100.00
+\i (00:03:11) prepopup -136.15 101.76
+\i (00:03:13) pop dyn_option_select '@:@Text edit' 
+\i (00:03:13) text edit 
+\i (00:03:15) setwindow form.textedit
+\i (00:03:15) FORM textedit str C 
+\i (00:03:15) FORM textedit done  
+\i (00:03:15) setwindow pcb
+\i (00:03:15) pick 0.00 0.00
+\t (00:03:15) 选择要编辑的文本。
+\i (00:03:15) setwindow pcb
+\i (00:03:15) generaledit 
+\i (00:03:16) pick grid -192.57 65.43
+\t (00:03:16) last pick:  -200.00 100.00
+\i (00:03:17) prepopup -192.57 65.43
+\i (00:03:20) pop dyn_option_select '@:@Text edit' 
+\i (00:03:20) text edit 
+\i (00:03:20) setwindow form.textedit
+\i (00:03:20) FORM textedit str C 
+\i (00:03:20) FORM textedit done  
+\i (00:03:20) setwindow pcb
+\i (00:03:20) pick 0.00 0.00
+\t (00:03:20) 选择要编辑的文本。
+\i (00:03:20) setwindow pcb
+\i (00:03:20) generaledit 
+\i (00:03:22) roam start
+\i (00:03:22) roam x 16
+\i (00:03:22) roam x 160
+\i (00:03:22) roam x 80
+\i (00:03:22) roam x 112
+\i (00:03:22) roam y 16
+\i (00:03:22) roam x 208
+\i (00:03:22) roam y 16
+\i (00:03:22) roam x 112
+\i (00:03:22) roam y 16
+\i (00:03:22) roam x 192
+\i (00:03:22) roam y 32
+\i (00:03:22) roam x 96
+\i (00:03:22) roam x 80
+\i (00:03:22) roam y 16
+\i (00:03:22) roam x 64
+\i (00:03:22) roam y 16
+\i (00:03:22) roam x 16
+\i (00:03:22) roam x 16
+\i (00:03:22) roam end
+\i (00:03:23) pick grid 178.96 95.57
+\t (00:03:23) last pick:  200.00 100.00
+\i (00:03:24) prepopup 178.96 95.57
+\i (00:03:27) pick grid 215.56 126.12
+\t (00:03:27) last pick:  200.00 100.00
+\i (00:03:27) pick grid 186.67 83.73
+\t (00:03:27) last pick:  200.00 100.00
+\i (00:03:28) prepopup 186.67 83.73
+\i (00:03:29) pop dyn_option_select '@:@Text edit' 
+\i (00:03:29) text edit 
+\i (00:03:30) setwindow form.textedit
+\i (00:03:30) FORM textedit str C 
+\i (00:03:30) FORM textedit done  
+\i (00:03:30) setwindow pcb
+\i (00:03:30) pick 0.00 0.00
+\t (00:03:30) 选择要编辑的文本。
+\i (00:03:30) setwindow pcb
+\i (00:03:30) generaledit 
+\i (00:03:31) pick grid 194.37 63.09
+\t (00:03:31) last pick:  200.00 100.00
+\i (00:03:32) pick grid 194.37 63.09
+\t (00:03:32) last pick:  200.00 100.00
+\i (00:03:32) prepopup 194.37 63.09
+\i (00:03:35) pop dyn_option_select '@:@Text edit' 
+\i (00:03:35) text edit 
+\i (00:03:36) setwindow form.textedit
+\i (00:03:36) FORM textedit str C 
+\i (00:03:36) FORM textedit done  
+\i (00:03:36) setwindow pcb
+\i (00:03:36) pick 0.00 0.00
+\t (00:03:36) 选择要编辑的文本。
+\i (00:03:36) setwindow pcb
+\i (00:03:36) generaledit 
+\i (00:03:36) zoom out 1 
+\i (00:03:36) setwindow pcb
+\i (00:03:36) zoom out 283.81 53.46
+\i (00:03:36) trapsize 275
+\i (00:03:37) zoom out 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom out 283.81 53.46
+\i (00:03:37) trapsize 550
+\i (00:03:37) roam start
+\i (00:03:37) roam y 16
+\i (00:03:37) roam y 16
+\i (00:03:37) roam y 16
+\i (00:03:37) roam end
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in -156.58 -128.44
+\i (00:03:37) trapsize 275
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in -157.12 -128.99
+\i (00:03:37) trapsize 138
+\i (00:03:38) pick grid -165.65 -98.99
+\t (00:03:38) last pick:  -200.00 -100.00
+\i (00:03:38) prepopup -165.65 -95.96
+\i (00:03:39) pick grid -133.73 -49.72
+\t (00:03:39) last pick:  -100.00 0.00
+\i (00:03:40) pick grid -169.23 -85.78
+\t (00:03:40) last pick:  -200.00 -100.00
+\i (00:03:40) prepopup -169.23 -85.78
+\i (00:03:42) pick grid -171.43 -75.59
+\t (00:03:42) last pick:  -200.00 -100.00
+\i (00:03:42) drag_start grid -192.62 -48.62
+\i (00:03:42) drag_stop -119.97 -160.63
+\i (00:03:43) pick grid -122.44 -153.48
+\t (00:03:43) last pick:  -100.00 -200.00
+\i (00:03:43) zoom out 1 
+\i (00:03:43) setwindow pcb
+\i (00:03:43) zoom out -123.54 -133.66
+\i (00:03:43) trapsize 275
+\i (00:03:43) zoom out 1 
+\i (00:03:43) setwindow pcb
+\i (00:03:43) zoom out -123.55 -133.66
+\i (00:03:43) trapsize 550
+\i (00:03:45) pick grid 169.89 -88.54
+\t (00:03:45) last pick:  200.00 -100.00
+\i (00:03:46) prepopup 169.89 -88.54
+\i (00:03:49) pick grid 122.55 -172.20
+\t (00:03:49) last pick:  100.00 -200.00
+\i (00:03:53) pick grid -177.98 -84.13
+\t (00:03:53) last pick:  -200.00 -100.00
+\i (00:03:53) prepopup -177.98 -84.13
+\i (00:04:01) pick grid -18.36 -48.90
+\t (00:04:01) last pick:  0.00 0.00
+\i (00:04:06) pick grid 176.49 -83.03
+\t (00:04:06) last pick:  200.00 -100.00
+\i (00:04:07) prepopup 176.49 -83.03
+\i (00:04:08) pick grid 156.68 -97.34
+\t (00:04:08) last pick:  200.00 -100.00
+\i (00:04:08) drag_start grid 130.26 -1.57
+\i (00:04:08) drag_stop 276.67 -185.41
+\i (00:04:09) pick grid 276.67 -185.41
+\t (00:04:09) last pick:  300.00 -200.00
+\i (00:04:10) color192 
+\i (00:04:10) generaledit 
+\i (00:04:11) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up"
+\i (00:04:12) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:13) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:04:14) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:04:15) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:04:15) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:04:17) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:04:17) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:04:18) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox Mfg 0
+\i (00:04:18) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:04:20) pick grid 170.99 -90.74
+\t (00:04:20) last pick:  200.00 -100.00
+\i (00:04:20) pick grid dbl 170.99 -90.74
+\t (00:04:20) last pick:  200.00 -100.00
+\i (00:04:21) prepopup 170.99 -90.74
+\i (00:04:23) pop dyn_option_select '@:@Text edit' 
+\i (00:04:23) text edit 
+\i (00:04:24) setwindow form.textedit
+\i (00:04:24) FORM textedit str C 
+\i (00:04:24) FORM textedit done  
+\i (00:04:24) setwindow pcb
+\i (00:04:24) pick 0.00 0.00
+\t (00:04:24) 选择要编辑的文本。
+\i (00:04:24) setwindow pcb
+\i (00:04:24) generaledit 
+\i (00:04:25) pick grid -172.48 -84.13
+\t (00:04:25) last pick:  -200.00 -100.00
+\i (00:04:25) prepopup -172.48 -84.13
+\i (00:04:30) pick grid -133.95 -53.31
+\t (00:04:30) last pick:  -100.00 -100.00
+\i (00:04:30) pick grid -166.97 -87.43
+\t (00:04:31) last pick:  -200.00 -100.00
+\i (00:04:31) prepopup -166.97 -87.43
+\i (00:04:32) pop dyn_option_select '@:@Text edit' 
+\i (00:04:32) text edit 
+\i (00:04:32) setwindow form.textedit
+\i (00:04:32) FORM textedit str C 
+\i (00:04:33) FORM textedit done  
+\i (00:04:33) setwindow pcb
+\i (00:04:33) pick 0.00 0.00
+\t (00:04:33) 选择要编辑的文本。
+\i (00:04:33) setwindow pcb
+\i (00:04:33) generaledit 
+\i (00:04:33) save 
+\i (00:04:34) fillin yes 
+\e (00:04:35) ERROR(SPMHGE-7): 发生错误，检查日志文件。
+\i (00:04:35) generaledit 
+\i (00:04:55) zoom in 1 
+\i (00:04:55) setwindow pcb
+\i (00:04:55) zoom in -205.50 152.55
+\i (00:04:55) trapsize 275
+\i (00:04:58) roam start
+\i (00:04:58) roam y 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y 32
+\i (00:04:59) roam y 32
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam y 16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y -16
+\i (00:04:59) roam x 16
+\i (00:04:59) roam y -32
+\i (00:04:59) roam x 16
+\i (00:04:59) roam end
+\i (00:05:00) pick grid -89.91 -83.31
+\t (00:05:00) last pick:  -100.00 -100.00
+\i (00:05:03) pick grid -50.28 -82.20
+\t (00:05:03) last pick:  -100.00 -100.00
+\i (00:05:03) pick grid -175.78 106.59
+\t (00:05:03) last pick:  -200.00 100.00
+\i (00:05:04) pick grid -166.97 105.49
+\t (00:05:04) last pick:  -200.00 100.00
+\i (00:05:04) pick grid dbl -166.97 105.49
+\t (00:05:04) last pick:  -200.00 100.00
+\i (00:05:05) pick grid -166.42 96.68
+\t (00:05:05) last pick:  -200.00 100.00
+\i (00:05:06) prepopup -166.42 96.68
+\i (00:05:12) pop dyn_option_select '@:@Text edit' 
+\i (00:05:13) text edit 
+\i (00:05:16) setwindow form.textedit
+\i (00:05:16) FORM textedit str C1 
+\i (00:05:16) FORM textedit done  
+\i (00:05:16) setwindow pcb
+\i (00:05:16) pick 0.00 0.00
+\t (00:05:16) 选择要编辑的文本。
+\i (00:05:16) setwindow pcb
+\i (00:05:16) generaledit 
+\i (00:05:17) pick grid -162.57 63.11
+\t (00:05:17) last pick:  -200.00 100.00
+\i (00:05:17) prepopup -162.57 63.11
+\i (00:05:19) pop dyn_option_select '@:@Text edit' 
+\i (00:05:19) text edit 
+\i (00:05:23) setwindow form.textedit
+\i (00:05:23) FORM textedit str C2 
+\i (00:05:23) FORM textedit done  
+\i (00:05:23) setwindow pcb
+\i (00:05:23) pick 0.00 0.00
+\t (00:05:23) 选择要编辑的文本。
+\i (00:05:23) setwindow pcb
+\i (00:05:23) generaledit 
+\i (00:05:25) pick grid 167.14 94.48
+\t (00:05:25) last pick:  200.00 100.00
+\i (00:05:25) prepopup 167.14 94.48
+\i (00:05:31) pop dyn_option_select '@:@Text edit' 
+\i (00:05:31) text edit 
+\i (00:05:35) setwindow form.textedit
+\i (00:05:35) FORM textedit str C3 
+\i (00:05:35) FORM textedit done  
+\i (00:05:35) setwindow pcb
+\i (00:05:35) pick 0.00 0.00
+\t (00:05:35) 选择要编辑的文本。
+\i (00:05:35) setwindow pcb
+\i (00:05:35) generaledit 
+\i (00:05:35) pick grid 155.03 51.55
+\t (00:05:35) last pick:  200.00 100.00
+\i (00:05:36) prepopup 155.58 53.75
+\i (00:05:41) pop dyn_option_select '@:@Text edit' 
+\i (00:05:41) text edit 
+\i (00:05:45) setwindow form.textedit
+\i (00:05:45) FORM textedit str C4 
+\i (00:05:45) FORM textedit done  
+\i (00:05:45) setwindow pcb
+\i (00:05:45) pick 0.00 0.00
+\t (00:05:45) 选择要编辑的文本。
+\i (00:05:45) setwindow pcb
+\i (00:05:45) generaledit 
+\i (00:05:47) pick grid -168.62 -78.90
+\t (00:05:47) last pick:  -200.00 -100.00
+\i (00:05:47) prepopup -168.62 -78.90
+\i (00:05:49) pop dyn_option_select '@:@Text edit' 
+\i (00:05:49) text edit 
+\i (00:05:52) setwindow form.textedit
+\i (00:05:52) FORM textedit str C4 
+\i (00:05:52) FORM textedit done  
+\i (00:05:52) setwindow pcb
+\i (00:05:52) pick 0.00 0.00
+\t (00:05:52) 选择要编辑的文本。
+\i (00:05:52) setwindow pcb
+\i (00:05:52) generaledit 
+\i (00:05:53) pick grid -159.81 -87.16
+\t (00:05:53) last pick:  -200.00 -100.00
+\i (00:05:53) prepopup -159.81 -87.16
+\i (00:05:55) pop dyn_option_select '@:@Text edit' 
+\i (00:05:55) text edit 
+\i (00:05:58) setwindow form.textedit
+\i (00:05:58) FORM textedit str C5 
+\i (00:05:58) FORM textedit done  
+\i (00:05:58) setwindow pcb
+\i (00:05:58) pick 0.00 0.00
+\t (00:05:58) 选择要编辑的文本。
+\i (00:05:58) setwindow pcb
+\i (00:05:58) generaledit 
+\i (00:06:00) pick grid 176.50 -88.81
+\t (00:06:00) last pick:  200.00 -100.00
+\i (00:06:00) prepopup 176.50 -88.81
+\i (00:06:04) pop dyn_option_select '@:@Text edit' 
+\i (00:06:04) text edit 
+\i (00:06:08) setwindow form.textedit
+\i (00:06:08) FORM textedit str C6 
+\i (00:06:08) FORM textedit done  
+\i (00:06:08) setwindow pcb
+\i (00:06:08) pick 0.00 0.00
+\t (00:06:08) 选择要编辑的文本。
+\i (00:06:08) setwindow pcb
+\i (00:06:08) generaledit 
+\i (00:06:08) pick grid 73.57 -90.46
+\t (00:06:08) last pick:  100.00 -100.00
+\i (00:06:09) save 
+\i (00:06:10) fillin yes 
+\t (00:06:11) Symbol 'usbsmd24p.psm' created.
+\i (00:06:11) generaledit 
+\i (00:06:15) dlib 
+\i (00:06:17) setwindow form.dlib
+\i (00:06:17) FORM dlib execute  
+\t (00:06:17) Starting Cadence export libraries...
+\i (00:08:44) FORM dlib cancel  
+\i (00:08:44) setwindow pcb
+\i (00:08:44) generaledit 
+\i (00:08:45) exit 
+\t (00:08:47)     Journal end - Mon Aug  5 22:39:52 2024

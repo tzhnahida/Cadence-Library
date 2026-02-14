@@ -11,6 +11,10 @@
       (File "..\symbols\type-c_16pin.olb"
         (Type "Schematic Library"))
       (File "..\symbols\smbj5v0a.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\fuse.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\ferritebead.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -109,6 +113,14 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     ("DIODE TVS"
       (FullPartName "DIODE TVS.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -148,9 +160,14 @@
       (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\type-c_16pin.olb")
       (Path "Design Resources" "Library" "..\symbols\smbj5v0a.olb")
+      (Path "Design Resources" "Library" "..\symbols\fuse.olb")
+      (Path "Design Resources" "Library" "..\symbols\ferritebead.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\componentlibrary\library2.olb")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\smbj5v0a.olb"))
+      (Select "Design Resources" "Library" "..\symbols\ferritebead.olb"
+         "FerriteBead"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -161,22 +178,15 @@
       (Type "COrPrmBrowserDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 5 1300 28 609"))
-      (Path "F:\Projects\PCB\Library\Symbols\SMBJ5V0A.OLB")
-      (Package "SMBJ5V0A")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1300 28 609"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
-      (Package "CAP_NP")
+      (Path "F:\Projects\PCB\Library\Symbols\FerriteBead.OLB")
+      (Package "FERRITEBEAD")
       (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1300 28 609")
-        (Scroll "1308 1902")
-        (Zoom "600")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1300 28 609")
+        (Scroll "296 1128")
+        (Zoom "400")
         (Occurrence "/"))
       (Path "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DSN")
       (Schematic "SCHEMATIC1")

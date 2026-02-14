@@ -1,0 +1,70 @@
+\t (00:21:59) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:21:59)     Journal start - Sun Feb 15 04:58:39 2026
+\t (00:21:59)         Host=TZH-PC User=27356 Pid=2668 CPUs=16
+\t (00:21:59) CmdLine= D:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:21:59) 
+\t (00:21:59) Starting new design...
+\i (00:21:59) trapsize 90909
+\i (00:21:59) trapsize 90909
+\i (00:21:59) show element 
+\i (00:21:59) done 
+\i (00:21:59) trapsize 90909
+\t (00:21:59) Opening existing design...
+\i (00:21:59) trapsize 9580
+\i (00:21:59) trapsize 8987
+\i (00:22:00) fillin confirm
+\i (00:22:01) fillin "menu_cancel"
+\t (00:22:01) Checking db records
+\t (00:22:01)     checking for orphans...
+\t (00:22:01)     Checked 100 percent
+\w (00:22:01) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:22:02) fillin confirm
+\i (00:22:04) fillin "menu_cancel"
+\t (00:22:04) Checking db records
+\t (00:22:04)     checking for orphans...
+\t (00:22:04)     Checked 100 percent
+\w (00:22:04) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:22:05) fillin confirm
+\i (00:22:09) fillin "unnamed.brd"
+   (00:22:09) Info: Deleting 0 pad dangling clines.
+\i (00:22:09) trapsize 585
+\t (00:22:09) Checking db records
+\t (00:22:09)     checking for orphans...
+\t (00:22:09)     Checked 100 percent
+\w (00:22:09) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:22:10) fillin confirm
+\i (00:22:12) fillin "unname2d.brd"
+\t (00:22:12) Checking db records
+\t (00:22:12)     checking for orphans...
+\t (00:22:12)     Checked 100 percent
+\w (00:22:12) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:22:13) fillin confirm
+\i (00:22:19) fillin "unname1232d.brd"
+\t (00:22:19) Checking db records
+\t (00:22:19)     checking for orphans...
+\t (00:22:19)     Checked 100 percent
+\w (00:22:19) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:22:20) fillin confirm
+\i (00:22:22) fillin "unna123med.brd"
+\i (00:22:26) setwindow form.trl_altium2pcb
+\i (00:22:26) FORM trl_altium2pcb cancel  
+\i (00:22:26) setwindow pcb
+\i (00:22:26) pick grid 3372.59 3023.85
+\t (00:22:26) last pick:  3373.00 3024.00
+\i (00:22:28) setwindow text
+\i (00:22:28) close
+\i (00:22:33) setwindow pcb
+\i (00:22:33) dlib 
+\i (00:22:41) setwindow form.dlib
+\i (00:22:41) FORM dlib execute  
+\t (00:22:41) Starting Cadence export libraries...
+\i (00:26:04) FORM dlib cancel  
+\i (00:26:04) setwindow pcb
+\i (00:26:04) placementedit 
+\i (00:26:04) exit 
+\t (00:26:05)     Journal end - Sun Feb 15 05:02:44 2026

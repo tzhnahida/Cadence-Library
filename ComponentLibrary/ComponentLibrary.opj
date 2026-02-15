@@ -1,6 +1,6 @@
 (ExpressProject "ComponentLibrary"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/15/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/16/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -15,6 +15,16 @@
       (File "..\symbols\fuse.olb"
         (Type "Schematic Library"))
       (File "..\symbols\ferritebead.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\tlv62569dbv.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\inductor.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\ch340.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\cmc.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\usblc6-2.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -98,7 +108,32 @@
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
        "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DRC"))
-  (Folder "Layout")
+  (Folder "Layout"
+    (File ".\allegro\unna123med.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unna123med.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unname1232d.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unname1232d.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unname2d.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unname2d.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unnamed.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unnamed.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\pcb1_final.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\pcb1_final.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\componentlibrary.drc"
       (Type "Report")))
@@ -113,6 +148,10 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (BEAD
       (FullPartName "BEAD.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -159,37 +198,44 @@
          "f:\projects\pcb\library\symbols\cap_np.olb")
       (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\type-c_16pin.olb")
-      (Path "Design Resources" "Library" "..\symbols\smbj5v0a.olb")
-      (Path "Design Resources" "Library" "..\symbols\fuse.olb")
-      (Path "Design Resources" "Library" "..\symbols\ferritebead.olb")
       (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\componentlibrary\library2.olb")
+         "f:\projects\pcb\library\symbols\smbj5v0a.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\fuse.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\ferritebead.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\tlv62569dbv.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\inductor.olb")
+      (Path "Design Resources" "Library" "..\symbols\ch340.olb")
+      (Path "Design Resources" "Library" "..\symbols\cmc.olb")
+      (Path "Design Resources" "Library" "..\symbols\usblc6-2.olb")
+      (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\ferritebead.olb"
-         "FerriteBead"))
+      (Select "Design Resources"
+         "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 287 0 563"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 420 0 789"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1300 28 609"))
-      (Path "F:\Projects\PCB\Library\Symbols\FerriteBead.OLB")
-      (Package "FERRITEBEAD")
+        (Placement "44 0 1 -1 -1 5 28 5 1167 28 835"))
+      (Path "F:\Projects\PCB\Library\Symbols\USBLC6-2.OLB")
+      (Package "USBLC6-2")
       (PartType "1"))
     (Doc
-      (Type "COrSchematicDoc")
+      (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1300 28 609")
-        (Scroll "296 1128")
-        (Zoom "400")
-        (Occurrence "/"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 0 1 -1 -1 -8 -31 5 1167 28 835"))
+      (Path "F:\Projects\PCB\Library\Symbols\CMC.OLB")
+      (Package "CMC")
+      (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

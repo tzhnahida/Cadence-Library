@@ -1,4 +1,0 @@
-{ Using PSTWRITER 17.4.0 d001Feb-15-2026 at 01:35:33 }
-
-#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE1 (5.00, 1.60).
-#2 ERROR(ORCAP-36018): Netlisting cannot complete because of the errors listed above in the session log. Correct the errors and netlist design.

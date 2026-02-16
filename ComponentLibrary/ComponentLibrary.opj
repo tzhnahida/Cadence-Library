@@ -43,6 +43,8 @@
       (File "..\symbols\w25q64.olb"
         (Type "Schematic Library"))
       (File "..\symbols\tf.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\fpc.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -151,6 +153,51 @@
       (Type "Board File")
       (OutputBoard ".\allegro\pcb1_final.brd")
       (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unn111amed.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unn111amed.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unna23452345352345med.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unna23452345352345med.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unna333med.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unna333med.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unna4564564645med.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unna4564564645med.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unnam222ed.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unnam222ed.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unnam234523452345ed.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unnam234523452345ed.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unnam324ed.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unnam324ed.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unname2342342d.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unname2342342d.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\unnamed23455.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\unnamed23455.brd")
+      (NetListPath ".\allegro")
       (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\componentlibrary.drc"
@@ -234,24 +281,42 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\symbols\w25q64.olb")
-      (Path "Design Resources" "Library" "..\symbols\tf.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\switch.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\w25q64.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\tf.olb")
+      (Path "Design Resources" "Library" "..\symbols\fpc.olb")
       (Path "Layout")
       (Path "Outputs")
-      (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\w25q64.olb" "W25Q64"))
+      (Path "PSpice Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 364 0 724"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 415 0 618"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1107 28 770"))
-      (Path "F:\Projects\PCB\Library\Symbols\W25Q64.OLB")
-      (Package "W25Q64")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1451 28 664"))
+      (Path "F:\Projects\PCB\Library\Symbols\FPC.OLB")
+      (Package "FPC_CONN_6P")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1451 28 664"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
+      (Package "SWITCH-2P")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1451 28 664"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
+      (Package "SW_SPDT")
       (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

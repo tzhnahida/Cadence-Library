@@ -1,6 +1,6 @@
 (ExpressProject "ComponentLibrary"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/16/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/17/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -10,7 +10,7 @@
         (Type "Schematic Library"))
       (File "..\symbols\type-c_16pin.olb"
         (Type "Schematic Library"))
-      (File "..\symbols\smbj5v0a.olb"
+      (File "..\symbols\tvs.olb"
         (Type "Schematic Library"))
       (File "..\symbols\fuse.olb"
         (Type "Schematic Library"))
@@ -35,6 +35,14 @@
       (File "..\symbols\led.olb"
         (Type "Schematic Library"))
       (File "..\symbols\stm32.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\tja1044.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\at24c256.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\w25q64.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\tf.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -158,6 +166,10 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    ("RESISTOR VAR"
+      (FullPartName "RESISTOR VAR.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     ("SW PUSHBUTTON-SPST-NC"
       (FullPartName "SW PUSHBUTTON-SPST-NC.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -222,15 +234,24 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\symbols\w25q64.olb")
+      (Path "Design Resources" "Library" "..\symbols\tf.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\stm32.olb"))
+      (Select "Design Resources" "Library" "..\symbols\w25q64.olb" "W25Q64"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 491 0 789"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 364 0 724"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1107 28 770"))
+      (Path "F:\Projects\PCB\Library\Symbols\W25Q64.OLB")
+      (Package "W25Q64")
+      (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

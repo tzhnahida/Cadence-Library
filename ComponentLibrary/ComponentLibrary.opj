@@ -25,6 +25,16 @@
       (File "..\symbols\cmc.olb"
         (Type "Schematic Library"))
       (File "..\symbols\usblc6-2.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\buzzer.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\crystal.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\switch.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\led.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\stm32.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -148,6 +158,26 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    ("SW PUSHBUTTON-SPST-NC"
+      (FullPartName "SW PUSHBUTTON-SPST-NC.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL/SM
+      (FullPartName "CRYSTAL/SM.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL13
+      (FullPartName "CRYSTAL13.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL1-4/SM
+      (FullPartName "CRYSTAL1-4/SM.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -192,50 +222,15 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\res.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\cap_np.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\type-c_16pin.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\smbj5v0a.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\fuse.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\ferritebead.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\tlv62569dbv.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\inductor.olb")
-      (Path "Design Resources" "Library" "..\symbols\ch340.olb")
-      (Path "Design Resources" "Library" "..\symbols\cmc.olb")
-      (Path "Design Resources" "Library" "..\symbols\usblc6-2.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources"
-         "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" "Library" "..\symbols\stm32.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 420 0 789"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1167 28 835"))
-      (Path "F:\Projects\PCB\Library\Symbols\USBLC6-2.OLB")
-      (Package "USBLC6-2")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1167 28 835"))
-      (Path "F:\Projects\PCB\Library\Symbols\CMC.OLB")
-      (Package "CMC")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 491 0 789"))
+      (Tab 0)))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

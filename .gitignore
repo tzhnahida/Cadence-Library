@@ -1,0 +1,31 @@
+# OrCAD & Allegro Combined GitIgnore
+
+# 1. 排除所有备份文件
+*.DBK*
+*.[0-9][0-9]*
+*.log*
+*.bak
+*.sav
+*.asv
+
+# 2. 排除日志与交互文件
+*.jrl
+*.tag
+*.lck
+*.txt
+# 注意：如果你的元件清单(BOM)是txt格式，请改用 !BOM.txt 来排除过滤
+
+# 3. 排除仿真与输出文件夹
+/Simulation/
+/Gerber/
+/Output/
+/Backup/
+/temp/
+
+# 4. 必须保留的核心设计文件 (白名单参考)
+# *.DSN (原理图)
+# *.OPJ (项目)
+# *.OLB (原理图库)
+# *.BRD (PCB布局)
+# *.DRA (封装源码)
+# *.PSM (封装库)

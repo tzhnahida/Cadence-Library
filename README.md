@@ -30,7 +30,6 @@ Library
 - Includes:
   - `devices`: Allegro device and footprint libraries  
   - `symbols`: Allegro schematic symbols  
-  - `out` / `signoise.run` / `translator.run`: project output files and simulation tool resources
 
 ### 3. Datasheet
 - Contains datasheets for all components for easy reference of electrical parameters and package details.

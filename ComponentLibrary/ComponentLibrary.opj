@@ -45,6 +45,8 @@
       (File "..\symbols\tf.olb"
         (Type "Schematic Library"))
       (File "..\symbols\fpc.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\gh1.25.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -198,6 +200,11 @@
       (Type "Board File")
       (OutputBoard ".\allegro\unnamed23455.brd")
       (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\fpc-smd_4p-p1.00_10a20l04p_final.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\fpc-smd_4p-p1.00_10a20l04p_final.brd")
+      (NetListPath ".\allegro")
       (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\componentlibrary.drc"
@@ -282,41 +289,44 @@
          "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\switch.olb")
+         "f:\projects\pcb\library\symbols\type-c_16pin.olb")
       (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\w25q64.olb")
+         "f:\projects\pcb\library\symbols\tvs.olb")
       (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\tf.olb")
-      (Path "Design Resources" "Library" "..\symbols\fpc.olb")
+         "f:\projects\pcb\library\symbols\tja1044.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\fpc.olb")
+      (Path "Design Resources" "Library" "..\symbols\gh1.25.olb")
       (Path "Layout")
       (Path "Outputs")
-      (Path "PSpice Resources"))
+      (Path "PSpice Resources")
+      (Select "Design Resources" "Library" "..\symbols\gh1.25.olb" "GH1.25-2P"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 415 0 618"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 654"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1451 28 664"))
-      (Path "F:\Projects\PCB\Library\Symbols\FPC.OLB")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1474 28 700"))
+      (Path "F:\Projects\PCB\Library\Symbols\GH1.25.OLB")
+      (Package "GH1.25-2P")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1474 28 700"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+      (Package "FPC_CONN_4P")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1474 28 700"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
       (Package "FPC_CONN_6P")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1451 28 664"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
-      (Package "SWITCH-2P")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1451 28 664"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
-      (Package "SW_SPDT")
       (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

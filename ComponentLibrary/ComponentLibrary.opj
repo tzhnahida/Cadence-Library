@@ -47,6 +47,14 @@
       (File "..\symbols\fpc.olb"
         (Type "Schematic Library"))
       (File "..\symbols\gh1.25.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\ina219aidcnr.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\esp.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\ics-43434.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\pcm5102a.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -288,45 +296,47 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\type-c_16pin.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\tvs.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\tja1044.olb")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\fpc.olb")
-      (Path "Design Resources" "Library" "..\symbols\gh1.25.olb")
+      (Path "Design Resources" "Library" "..\symbols\ina219aidcnr.olb")
+      (Path "Design Resources" "Library" "..\symbols\esp.olb")
+      (Path "Design Resources" "Library" "..\symbols\ics-43434.olb")
+      (Path "Design Resources" "Library" "..\symbols\pcm5102a.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\gh1.25.olb" "GH1.25-2P"))
+      (Select "Design Resources" "Library" "..\symbols\pcm5102a.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 654"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 461 0 639"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1474 28 700"))
-      (Path "F:\Projects\PCB\Library\Symbols\GH1.25.OLB")
-      (Package "GH1.25-2P")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
+      (Path "F:\Projects\PCB\Library\Symbols\PCM5102A.OLB")
+      (Package "PCM5102A")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1474 28 700"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
-      (Package "FPC_CONN_4P")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
+      (Path "F:\Projects\PCB\Library\Symbols\ESP.OLB")
+      (Package "ESP8266EX")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1474 28 700"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
-      (Package "FPC_CONN_6P")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
+      (Path "F:\Projects\PCB\Library\Symbols\ICS-43434.OLB")
+      (Package "ICS-43434")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
+      (Path "F:\Projects\PCB\Library\Symbols\INA219AIDCNR.OLB")
+      (Package "INA219AIDCNR")
       (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

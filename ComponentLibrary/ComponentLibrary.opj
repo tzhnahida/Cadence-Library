@@ -1,12 +1,12 @@
 (ExpressProject "ComponentLibrary"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/17/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/21/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "..\symbols\res.olb"
         (Type "Schematic Library"))
-      (File "..\symbols\cap_np.olb"
+      (File "..\symbols\cap.olb"
         (Type "Schematic Library"))
       (File "..\symbols\type-c_16pin.olb"
         (Type "Schematic Library"))
@@ -55,6 +55,16 @@
       (File "..\symbols\ics-43434.olb"
         (Type "Schematic Library"))
       (File "..\symbols\pcm5102a.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\a4950eljtr-t.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\hs180s10b.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\ldo.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\xt30.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\pj-320d.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -80,7 +90,6 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (Board_sim_option "VHDL_flow")
     ("Allegro Netlist Output Board File" ".\allegro\componentlibrary.brd")
     (DRC_Scope "0")
     (DRC_Action "0")
@@ -137,7 +146,8 @@
     (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
-       "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DRC"))
+       "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DRC")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout"
     (File ".\allegro\unna123med.brd"
       (Type "Board File")
@@ -228,6 +238,10 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     ("RESISTOR VAR"
       (FullPartName "RESISTOR VAR.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -296,47 +310,16 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\symbols\ina219aidcnr.olb")
-      (Path "Design Resources" "Library" "..\symbols\esp.olb")
-      (Path "Design Resources" "Library" "..\symbols\ics-43434.olb")
-      (Path "Design Resources" "Library" "..\symbols\pcm5102a.olb")
+      (Path "Design Resources" "Library" "..\symbols\xt30.olb")
+      (Path "Design Resources" "Library" "..\symbols\pj-320d.olb")
       (Path "Layout")
       (Path "Outputs")
-      (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\pcm5102a.olb"))
+      (Path "PSpice Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 461 0 639"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
-      (Path "F:\Projects\PCB\Library\Symbols\PCM5102A.OLB")
-      (Package "PCM5102A")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
-      (Path "F:\Projects\PCB\Library\Symbols\ESP.OLB")
-      (Package "ESP8266EX")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
-      (Path "F:\Projects\PCB\Library\Symbols\ICS-43434.OLB")
-      (Package "ICS-43434")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1413 28 685"))
-      (Path "F:\Projects\PCB\Library\Symbols\INA219AIDCNR.OLB")
-      (Package "INA219AIDCNR")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 426 0 709"))
+      (Tab 0)))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

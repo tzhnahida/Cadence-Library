@@ -270,6 +270,16 @@
       (Type "Board File")
       (OutputBoard ".\allegro\unnam123213123123ed.brd")
       (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\l0201_final.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\l0201_final.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\msop-10_l3.0-w3.0-p0.50-ls5.0-bl_final.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\msop-10_l3.0-w3.0-p0.50-ls5.0-bl_final.brd")
+      (NetListPath ".\allegro")
       (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\componentlibrary.drc"
@@ -360,6 +370,8 @@
       (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\cap.olb")
       (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\tvs.olb")
+      (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\esp.olb")
       (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\xt30.olb")
@@ -372,13 +384,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 312 0 770"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 629"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1159 28 816"))
-      (Path "F:\Projects\PCB\Library\Symbols\RF.OLB")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1271 28 675"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RF.OLB")
       (Package "BWSMA-KWE-Z001")
       (PartType "1")))
   (MPSSessionName "27356")

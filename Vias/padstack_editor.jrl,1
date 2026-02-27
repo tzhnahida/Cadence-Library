@@ -1,0 +1,18 @@
+\t (00:00:01) padstack_editor 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Feb 24 01:45:10 2026
+\t (00:00:01)         Host=TZH-PC User=27356 Pid=13224 CPUs=16
+\t (00:00:01) CmdLine= d:\cadence\spb_17.4\tools\bin\padstack_editor.exe F:\Projects\PCB\Library\Vias\via10.pad
+\t (00:00:01) 
+\d (00:00:03) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\d (00:00:04) QtFillin Yes
+\w (00:00:04) WARNING(SPMHUT-48): ±ê¶¨ÖµÒÑÉáÈë¡£
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "¸¨Öú×ê¿×"
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿× Symbol"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "¸¨Öú×ê¿×"
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
+\d (00:00:22) QtFillin No
+\t (00:00:22)     Journal end - Tue Feb 24 01:45:32 2026

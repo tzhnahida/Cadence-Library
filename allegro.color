@@ -1,0 +1,9 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+color -vis "ETCH/TOP"
+color -vis "ANALYSIS/__EPB_SCRATCH_ACON_SPACE_POLY"
+color -vis "PIN/TOP"
+color -vis "VIA CLASS/TOP"

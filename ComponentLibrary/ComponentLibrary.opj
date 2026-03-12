@@ -280,40 +280,44 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\symbols\mosfet.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\type-c_16pin.olb")
+      (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\mosfet.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\mosfet.olb" "NMOS"))
+      (Select "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\type-c_16pin.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 401"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 592"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 789 28 447")
-        (Scroll "1732 345")
-        (Zoom "400")
-        (Occurrence "/"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 789 28 447"))
-      (Path "F:\Projects\PCB\Library\Symbols\MOSFET.OLB")
+        (Placement "44 0 1 -1 -1 -8 -31 5 901 28 638"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\MOSFET.OLB")
       (Package "NMOS")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 789 28 447"))
-      (Path "F:\Projects\PCB\Library\Symbols\MOSFET.OLB")
+        (Placement "44 0 1 -1 -1 -8 -31 5 901 28 638"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\MOSFET.OLB")
       (Package "PMOS")
-      (PartType "1")))
+      (PartType "1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 901 28 638")
+        (Scroll "1732 345")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

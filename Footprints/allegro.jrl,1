@@ -1,7 +1,7 @@
 \t (00:00:02) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Mon Mar 16 09:05:10 2026
-\t (00:00:02)         Host=TZH-PC User=27356 Pid=20808 CPUs=16
-\t (00:00:02) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe F:\Projects\PCB\Library\OldLibrary\PCB\USBSMD16P.dra
+\t (00:00:02)     Journal start - Mon Mar 16 09:13:32 2026
+\t (00:00:02)         Host=TZH-PC User=27356 Pid=10808 CPUs=16
+\t (00:00:02) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe F:\Projects\PCB\Library\Footprints\TYPEC_16PIN.dra
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
    (00:00:02) *Error* load: can't access file - "x_silk_in_out.il"
@@ -81,60 +81,14 @@
    (00:00:02) *Error* load: can't access file - "D:/skill/x_change_lw.il"
    (00:00:02) *Error* load: can't access file - "C:/SPB_Data/pcbenv/HZ$D.172.443/Jun_SkillLoad.il"
    (00:00:02) *Error* eval: undefined function - Jun_SkillLoad
-\t (00:00:02) Opening existing design...
-\d (00:00:02) Design opened: F:/Projects/PCB/Library/OldLibrary/PCB/USBSMD16P.dra
-\i (00:00:02) trapsize 412
-\i (00:00:02) trapsize 419
-\i (00:00:02) trapsize 412
-\i (00:00:03) trapsize 436
-\i (00:00:03) trapsize 436
-\i (00:00:03) strokefile allegro 
-\i (00:00:03) generaledit 
-\i (00:00:03) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 184.14 -20.56
-\i (00:00:04) trapsize 218
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 184.14 -20.56
-\i (00:00:04) trapsize 109
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 184.14 -20.56
-\i (00:00:04) trapsize 54
-\i (00:00:04) roam start
-\i (00:00:04) roam x -48
-\i (00:00:04) roam y -48
-\i (00:00:04) roam x -432
-\i (00:00:04) roam y -448
-\i (00:00:05) roam x -128
-\i (00:00:05) roam y -208
-\i (00:00:05) roam x -144
-\i (00:00:05) roam y -192
-\i (00:00:05) roam x -192
-\i (00:00:05) roam y -256
-\i (00:00:05) roam x -112
-\i (00:00:05) roam y -160
-\i (00:00:05) roam x -96
-\i (00:00:05) roam y -144
-\i (00:00:05) roam x -64
-\i (00:00:05) roam y -64
-\i (00:00:05) roam end
-\i (00:00:06) zoom out 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom out 28.75 139.25
-\i (00:00:06) trapsize 109
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 28.75 139.26
-\i (00:00:07) trapsize 218
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in -191.63 112.25
-\i (00:00:08) trapsize 109
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in -187.93 117.05
-\i (00:00:08) trapsize 54
-\i (00:00:10) exit 
-\t (00:00:10)     Journal end - Mon Mar 16 09:05:19 2026
+\t (00:00:04) Opening existing design...
+\d (00:00:05) Design opened: F:/Projects/PCB/Library/Footprints/TYPEC_16PIN.dra
+\i (00:00:05) trapsize 103
+\i (00:00:05) trapsize 105
+\i (00:00:05) trapsize 103
+\i (00:00:05) trapsize 109
+\i (00:00:05) trapsize 109
+\i (00:00:06) strokefile allegro 
+\i (00:00:06) generaledit 
+\i (00:00:08) exit 
+\t (00:00:08)     Journal end - Mon Mar 16 09:13:39 2026

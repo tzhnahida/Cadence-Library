@@ -1,6 +1,6 @@
 (ExpressProject "ComponentLibrary"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/21/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[03/16/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -85,6 +85,8 @@
       (File "..\symbols\sgm3752ytn6g.olb"
         (Type "Schematic Library"))
       (File "..\symbols\tps65131.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\mosfet.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -198,6 +200,14 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    ("MOSFET P"
+      (FullPartName "MOSFET P.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -270,71 +280,40 @@
          "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\symbols\sgm3752ytn6g.olb")
-      (Path "Design Resources" "Library" "..\symbols\tps65131.olb")
+      (Path "Design Resources" "Library" "..\symbols\mosfet.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\sgm3752ytn6g.olb"
-         "SGM3752YTN6G")
-      (Select "Design Resources" "Library" "..\symbols\sgm3752ytn6g.olb"
-         "Library Cache")
-      (Select "Design Resources" "Library" "..\symbols\tps65131.olb"
-         "TPS65131RGER"))
+      (Select "Design Resources" "Library" "..\symbols\mosfet.olb" "NMOS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 368 0 752"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 401"))
       (Tab 0))
     (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 789 28 447")
+        (Scroll "1732 345")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 28 798"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TC358870XBG.OLB")
-      (Package "TC358870XBG")
+        (Placement "44 0 1 -1 -1 -1 -1 5 789 28 447"))
+      (Path "F:\Projects\PCB\Library\Symbols\MOSFET.OLB")
+      (Package "NMOS")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1301 28 798"))
-      (Path "F:\Projects\PCB\Library\Symbols\SGM3752YTN6G.OLB")
-      (Package "SGM3752YTN6G")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1301 28 798"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\WP7.OLB")
-      (Package "WP7B-P040VA1-R8000")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1301 28 798"))
-      (Path "F:\Projects\PCB\Library\Symbols\TPS65131.OLB")
-      (Package "TPS65131RGER")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1301 28 798"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TPS65150PWPR.OLB")
-      (Package "TPS65150PWPR")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1301 28 798"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\HDMI.OLB")
-      (Package "HDMI-A")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1301 28 798"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\HDMI.OLB")
-      (Package "HDMI-D")
+        (Placement "44 0 1 -1 -1 -8 -31 5 789 28 447"))
+      (Path "F:\Projects\PCB\Library\Symbols\MOSFET.OLB")
+      (Package "PMOS")
       (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

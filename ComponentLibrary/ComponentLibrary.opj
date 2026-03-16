@@ -283,12 +283,14 @@
       (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\type-c_16pin.olb")
       (Path "Design Resources" "Library"
+         "f:\projects\pcb\library\symbols\tps65131.olb")
+      (Path "Design Resources" "Library"
          "f:\projects\pcb\library\symbols\mosfet.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Select "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\type-c_16pin.olb"))
+         "f:\projects\pcb\library\symbols\tps65131.olb" "TPS65131RGER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -298,21 +300,28 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 901 28 638"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 799 28 638"))
       (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\MOSFET.OLB")
       (Package "NMOS")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 901 28 638"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 799 28 638"))
       (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\MOSFET.OLB")
       (Package "PMOS")
       (PartType "1"))
     (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 799 28 638"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TPS65131.OLB")
+      (Package "TPS65131RGER")
+      (PartType "1"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 901 28 638")
+        (Placement "44 0 1 -1 -1 5 28 5 799 28 638")
         (Scroll "1732 345")
         (Zoom "400")
         (Occurrence "/"))

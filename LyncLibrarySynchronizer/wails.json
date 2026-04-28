@@ -1,0 +1,8 @@
+{
+  "name": "LyncLibrarySynchronizer",
+  "assetdir": "frontend",
+  "frontend:build": "",
+  "frontend:install": "",
+  "frontend:dev:watcher": "",
+  "frontend:dev:serverURL": ""
+}

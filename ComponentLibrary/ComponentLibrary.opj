@@ -89,6 +89,8 @@
       (File "..\symbols\mosfet.olb"
         (Type "Schematic Library"))
       (File "..\symbols\ip4292cz10.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\th.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -273,35 +275,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\componentlibrary.dsn")
-      (Path "Design Resources" ".\componentlibrary.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\componentlibrary.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\symbols\crystal.olb")
+      (Path "Design Resources" "Library"
+         "F:\Projects\PCB\Library\symbols\led.olb")
+      (Path "Design Resources" "Library"
+         "F:\Projects\PCB\Library\symbols\th.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\crystal.olb"
-         "XTAL-4P-Oscillator"))
+      (Select "Design Resources" "Library"
+         "F:\Projects\PCB\Library\symbols\led.olb" "LED"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 314 0 720"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 331 0 580"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1465 28 766"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CRYSTAL.OLB")
-      (Package "XTAL-4P-OSCILLATOR")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1465 28 766"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\IP4292CZ10.OLB")
-      (Package "IP4292CZ10")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1226 28 626"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\LED.OLB")
+      (Package "LED")
       (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

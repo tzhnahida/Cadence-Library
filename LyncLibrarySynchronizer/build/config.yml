@@ -1,0 +1,32 @@
+version: '3'
+
+info:
+  companyName: "PCB Library"
+  productName: "LyncLibrarySynchronizer"
+  productIdentifier: "com.pcb.librarysync"
+  description: "PCB Component Library Assistant"
+  copyright: "(c) 2025, PCB Library"
+  comments: "PCB Library Synchronizer"
+  version: "1.0.0"
+
+dev_mode:
+  root_path: .
+  log_level: warn
+  debounce: 1000
+  ignore:
+    dir:
+      - .git
+      - node_modules
+      - bindings
+      - bin
+    file:
+      - .DS_Store
+      - .gitignore
+    watched_extension:
+      - "*.go"
+    git_ignore: true
+  executes:
+    - cmd: wails3 build DEV=true
+      type: blocking
+    - cmd: wails3 task run
+      type: primary

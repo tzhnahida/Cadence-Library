@@ -1,94 +1,106 @@
-\t (00:00:02) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Mon Mar 16 09:13:32 2026
-\t (00:00:02)         Host=TZH-PC User=27356 Pid=10808 CPUs=16
-\t (00:00:02) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe F:\Projects\PCB\Library\Footprints\TYPEC_16PIN.dra
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-   (00:00:02) *Error* load: can't access file - "x_silk_in_out.il"
-   (00:00:02) function x_get_sym_bbox redefined
-   (00:00:02) function loginshow redefined
-   (00:00:02) function TimeOrder redefined
-   (00:00:02) function create_loginshow_form_file redefined
-   (00:00:02) function getskillpasslist redefined
-   (00:00:02) function getskilllist redefined
-   (00:00:02) function loginshow_form_action redefined
-   (00:00:02) function strlenlessp redefined
-   (00:00:02) function CaptureImage redefined
-   (00:00:02) function Save_Database redefined
-   (00:00:02) function GotMonthTable redefined
-   (00:00:02) function Property_Viewer redefined
-   (00:00:02) function SkillLoader redefined
-   (00:00:02) function tait_logoThumbnail redefined
-   (00:00:02) *Error* load: can't access file - "val_c"
-   (00:00:02) *Error* load: can't access file - "val_o"
-   (00:00:02) *Error* load: can't access file - "xgird.il"
-   (00:00:02) function jfhGetRefIDComDir redefined
-   (00:00:02) function jfhRotateTopRef redefined
-   (00:00:02) function jfhRotateBtmRef redefined
-   (00:00:02) function jfhRotateTopRefIr redefined
-   (00:00:02) function jfhRotateBtmRefIr redefined
-   (00:00:02) function ref redefined
-   (00:00:02) function jfhrotaterefIr redefined
-   (00:00:02) function check_text_overlap redefined
-   (00:00:02) function biuld_form redefined
-   (00:00:02) function pform_Action redefined
-   (00:00:02) function refdes_on_pad redefined
-   (00:00:02) function barcode_overlap_atom redefined
-   (00:00:02) function refdes_overlap_component redefined
-   (00:00:02) function text_overlap_text redefined
-   (00:00:02) function text_on_pad redefined
-   (00:00:02) function text_on_testpoints redefined
-   (00:00:02) function get_bar_code_box redefined
-   (00:00:02) function getbox redefined
-   (00:00:02) function text_on_text redefined
-   (00:00:02) function unselect_object redefined
-   (00:00:02) function turn_on_layer redefined
-   (00:00:02) function init_loc_text redefined
-   (00:00:02) function add_loc_text redefined
-   (00:00:02) function location_text redefined
-   (00:00:02) function location_prv redefined
-   (00:00:02) function x_dump_lib redefined
-   (00:00:02) function x_ro_sel_refdes redefined
-   (00:00:02) function x_move_sel_refdes redefined
-   (00:00:02) function x_get_sym_bbox redefined
-   (00:00:02) function x_align_symbol redefined
-   (00:00:02) function x_sym_align_left redefined
-   (00:00:02) function x_sym_align_right redefined
-   (00:00:02) function x_sym_align_up redefined
-   (00:00:02) function x_sym_align_down redefined
-   (00:00:02) function x_sym_align_hcenter redefined
-   (00:00:02) function x_sym_align_vcenter redefined
-   (00:00:02) function x_sym_align_undo redefined
-   (00:00:02) function x_get_sym_bbox redefined
-   (00:00:02) function x_split_shape redefined
-   (00:00:02) *Error* load: can't access file - "D:/skill/ch_ref.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/ch_text_overlap.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/change_net_onvias.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/check_dir.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/conv.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/dumplib.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/orphannet.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/quick_view.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/x_mc_ro_text.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/replace_via.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/scalpel.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/x_align_symbol.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/x_cline2shape.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/x_split_shape.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/gridsa.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/fform.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/x_check_line90.il"
-   (00:00:02) *Error* load: can't access file - "D:/skill/x_change_lw.il"
-   (00:00:02) *Error* load: can't access file - "C:/SPB_Data/pcbenv/HZ$D.172.443/Jun_SkillLoad.il"
-   (00:00:02) *Error* eval: undefined function - Jun_SkillLoad
-\t (00:00:04) Opening existing design...
-\d (00:00:05) Design opened: F:/Projects/PCB/Library/Footprints/TYPEC_16PIN.dra
-\i (00:00:05) trapsize 103
-\i (00:00:05) trapsize 105
-\i (00:00:05) trapsize 103
-\i (00:00:05) trapsize 109
-\i (00:00:05) trapsize 109
-\i (00:00:06) strokefile allegro 
-\i (00:00:06) generaledit 
-\i (00:00:08) exit 
-\t (00:00:08)     Journal end - Mon Mar 16 09:13:39 2026
+\t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Mar 18 20:04:32 2026
+\t (00:00:01)         Host=TZH-PC User=27356 Pid=17848 CPUs=16
+\t (00:00:01) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe F:\Projects\PCB\Library\Footprints\LED0603.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) *Error* load: can't access file - "x_silk_in_out.il"
+   (00:00:01) function x_get_sym_bbox redefined
+   (00:00:01) function loginshow redefined
+   (00:00:01) function TimeOrder redefined
+   (00:00:01) function create_loginshow_form_file redefined
+   (00:00:01) function getskillpasslist redefined
+   (00:00:01) function getskilllist redefined
+   (00:00:01) function loginshow_form_action redefined
+   (00:00:01) function strlenlessp redefined
+   (00:00:01) function CaptureImage redefined
+   (00:00:01) function Save_Database redefined
+   (00:00:01) function GotMonthTable redefined
+   (00:00:01) function Property_Viewer redefined
+   (00:00:01) function SkillLoader redefined
+   (00:00:01) function tait_logoThumbnail redefined
+   (00:00:01) *Error* load: can't access file - "val_c"
+   (00:00:01) *Error* load: can't access file - "val_o"
+   (00:00:01) *Error* load: can't access file - "xgird.il"
+   (00:00:01) function jfhGetRefIDComDir redefined
+   (00:00:01) function jfhRotateTopRef redefined
+   (00:00:01) function jfhRotateBtmRef redefined
+   (00:00:01) function jfhRotateTopRefIr redefined
+   (00:00:01) function jfhRotateBtmRefIr redefined
+   (00:00:01) function ref redefined
+   (00:00:01) function jfhrotaterefIr redefined
+   (00:00:01) function check_text_overlap redefined
+   (00:00:01) function biuld_form redefined
+   (00:00:01) function pform_Action redefined
+   (00:00:01) function refdes_on_pad redefined
+   (00:00:01) function barcode_overlap_atom redefined
+   (00:00:01) function refdes_overlap_component redefined
+   (00:00:01) function text_overlap_text redefined
+   (00:00:01) function text_on_pad redefined
+   (00:00:01) function text_on_testpoints redefined
+   (00:00:01) function get_bar_code_box redefined
+   (00:00:01) function getbox redefined
+   (00:00:01) function text_on_text redefined
+   (00:00:01) function unselect_object redefined
+   (00:00:01) function turn_on_layer redefined
+   (00:00:01) function init_loc_text redefined
+   (00:00:01) function add_loc_text redefined
+   (00:00:01) function location_text redefined
+   (00:00:01) function location_prv redefined
+   (00:00:01) function x_dump_lib redefined
+   (00:00:01) function x_ro_sel_refdes redefined
+   (00:00:01) function x_move_sel_refdes redefined
+   (00:00:01) function x_get_sym_bbox redefined
+   (00:00:01) function x_align_symbol redefined
+   (00:00:01) function x_sym_align_left redefined
+   (00:00:01) function x_sym_align_right redefined
+   (00:00:01) function x_sym_align_up redefined
+   (00:00:01) function x_sym_align_down redefined
+   (00:00:01) function x_sym_align_hcenter redefined
+   (00:00:01) function x_sym_align_vcenter redefined
+   (00:00:01) function x_sym_align_undo redefined
+   (00:00:01) function x_get_sym_bbox redefined
+   (00:00:01) function x_split_shape redefined
+   (00:00:01) *Error* load: can't access file - "D:/skill/ch_ref.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/ch_text_overlap.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/change_net_onvias.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/check_dir.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/conv.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/dumplib.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/orphannet.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/quick_view.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_mc_ro_text.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/replace_via.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/scalpel.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_align_symbol.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_cline2shape.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_split_shape.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/gridsa.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/fform.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_check_line90.il"
+   (00:00:01) *Error* load: can't access file - "D:/skill/x_change_lw.il"
+   (00:00:01) *Error* load: can't access file - "C:/SPB_Data/pcbenv/HZ$D.172.443/Jun_SkillLoad.il"
+   (00:00:01) *Error* eval: undefined function - Jun_SkillLoad
+\t (00:00:01) Opening existing design...
+\d (00:00:01) Design opened: F:/Projects/PCB/Library/Footprints/LED0603.dra
+\i (00:00:01) trapsize 607
+\i (00:00:01) trapsize 623
+\i (00:00:01) trapsize 607
+\i (00:00:01) trapsize 811
+\i (00:00:01) trapsize 1157
+\i (00:00:01) trapsize 1128
+\i (00:00:01) strokefile allegro 
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -12.50 -5.73
+\i (00:00:02) trapsize 564
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -12.50 -5.73
+\i (00:00:02) trapsize 282
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -12.50 -5.73
+\i (00:00:02) trapsize 141
+\i (00:00:06) exit 
+\t (00:00:06)     Journal end - Wed Mar 18 20:04:38 2026

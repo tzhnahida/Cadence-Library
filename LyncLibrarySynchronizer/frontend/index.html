@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCB Library 助手</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header id="header">
+            <h1>PCB Library Synchronizer</h1>
+            <div class="header-actions">
+                <button id="clear-btn" class="btn-sm">清除历史</button>
+                <button id="config-toggle" class="btn-sm">设置</button>
+            </div>
+        </header>
+
+        <div id="body-wrap">
+            <aside id="sidebar">
+                <h3>数据库统计</h3>
+                <div id="stats-container">
+                    <span class="loading-tip">加载中...</span>
+                </div>
+            </aside>
+
+            <main id="main">
+                <!-- Config Panel -->
+                <section id="config-panel" class="hidden">
+                    <h3>配置</h3>
+                    <div class="form-grid">
+                        <label>API Key <input id="cfg-apikey" type="password"></label>
+                        <label>Base URL <input id="cfg-baseurl"></label>
+                        <label>Model <input id="cfg-model"></label>
+                        <label>DB Path <input id="cfg-dbfile"></label>
+                        <label class="span-2">System Tag <textarea id="cfg-systemtag" rows="6"></textarea></label>
+                    </div>
+                    <div class="config-actions">
+                        <button id="cfg-save">保存配置</button>
+                        <span id="cfg-feedback"></span>
+                    </div>
+                </section>
+
+                <!-- URL Input -->
+                <section id="input-section">
+                    <div class="input-row">
+                        <input id="url-input" type="url" placeholder="输入立创商城商品 URL..." autofocus>
+                        <button id="analyze-btn">分析</button>
+                    </div>
+                    <span id="input-error" class="error-msg hidden"></span>
+                </section>
+
+                <!-- Loading -->
+                <section id="loading-section" class="hidden">
+                    <div class="spinner"></div>
+                    <span>正在分析，请稍候...</span>
+                </section>
+
+                <!-- Result -->
+                <section id="result-section" class="hidden">
+                    <div class="result-header">
+                        <span id="lcsc-id-display"></span>
+                        <label>数据表:
+                            <select id="table-select"></select>
+                        </label>
+                    </div>
+                    <table id="fields-table">
+                        <thead><tr><th>字段</th><th>值</th></tr></thead>
+                        <tbody id="fields-body"></tbody>
+                    </table>
+                    <div class="save-section">
+                        <button id="save-btn">写入数据库</button>
+                        <span id="save-feedback"></span>
+                    </div>
+                    <div id="tag-display" class="hidden">
+                        <h4>System Tag</h4>
+                        <pre id="tag-text"></pre>
+                    </div>
+                </section>
+
+                <!-- Error -->
+                <section id="error-section" class="hidden">
+                    <div id="error-banner"></div>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            <span id="status-bar">就绪</span>
+        </footer>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "@wailsio/runtime": "/wails/runtime.js"
+        }
+    }
+    </script>
+    <script type="module" src="/wails/runtime.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,7 +1,6 @@
 (ExpressProject "ComponentLibrary"
   (ProjectVersion "19981106")
   (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[05/26/26]")
-  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "..\symbols\res.olb"
@@ -196,6 +195,11 @@
       (Type "Board File")
       (OutputBoard ".\allegro\vqfn-24_l4.0-w4.0-p0.50-tl-ep_final.brd")
       (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\pcb1_final.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\pcb1_final.brd")
+      (NetListPath ".\allegro")
       (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\componentlibrary.drc"
@@ -282,56 +286,30 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn")
-      (Path "Design Resources"
-         "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "f:\projects\pcb\library\componentlibrary\componentlibrary.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "f:\projects\pcb\library\symbols\cap.olb")
-      (Path "Design Resources" "Library" "..\symbols\dc.olb")
+      (Path "Layout")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library" "..\symbols\dc.olb"))
+      (Select "Design Resources" "Library"
+         "F:\PROJECTS\PCB\LIBRARY\symbols\esp.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 380 0 708"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 393"))
       (Tab 0))
     (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1219 28 754")
-        (Scroll "-130 -5")
-        (Zoom "95")
-        (Occurrence "/"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\COMPONENTLIBRARY\COMPONENTLIBRARY.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1219 28 754"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\LED.OLB")
-      (Package "LED")
+        (Placement "44 0 1 -1 -1 -1 -1 5 689 28 415"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\WP7.OLB")
+      (Package "WP7B-S040VA1-R8000")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1219 28 754"))
-      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP.OLB")
-      (Package "CAP_AL")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1219 28 754"))
-      (Path "F:\Projects\PCB\Library\Symbols\DC.OLB")
-      (Package "DC-005H-D020")
+        (Placement "44 0 1 -1 -1 -8 -31 5 689 28 415"))
+      (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\WP7.OLB")
+      (Package "WP7B-P040VA1-R8000")
       (PartType "1")))
   (MPSSessionName "27356")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))

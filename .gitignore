@@ -10,8 +10,11 @@
 
 # 2. 排除日志与交互文件
 *.jrl
+*.jrl,*
 *.tag
 *.lck
+*.OBK
+*.OLBlck
 *.txt
 # 注意：如果你的元件清单(BOM)是txt格式，请改用 !BOM.txt 来排除过滤
 
@@ -21,11 +24,20 @@
 /Output/
 /Backup/
 /temp/
+signoise.run/
 
-# 4. 必须保留的核心设计文件 (白名单参考)
+# 4. 排除操作系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 5. 必须保留的核心设计文件 (白名单参考)
 # *.DSN (原理图)
 # *.OPJ (项目)
 # *.OLB (原理图库)
 # *.BRD (PCB布局)
 # *.DRA (封装源码)
 # *.PSM (封装库)
+# 本地运行副本：含真实 API key，绝不入库
+# （模板见 LyncLibrarySynchronizer/config.toml，其 api_key 为空占位）
+/config.toml

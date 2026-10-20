@@ -92,6 +92,10 @@
       (File "..\symbols\th.olb"
         (Type "Schematic Library"))
       (File "..\symbols\dc.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\tx810.olb"
+        (Type "Schematic Library"))
+      (File "..\symbols\cdce6214.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -287,27 +291,42 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\symbols\tx810.olb")
+      (Path "Design Resources" "Library" "..\symbols\cdce6214.olb")
       (Path "Layout")
       (Path "PSpice Resources")
-      (Select "Design Resources" "Library"
-         "F:\PROJECTS\PCB\LIBRARY\symbols\esp.olb"))
+      (Select "Design Resources" "Library" "..\symbols\cdce6214.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 393"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 382 0 787"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 689 28 415"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 1333 28 833"))
+      (Path "F:\Projects\PCB\Library\Symbols\CDCE6214.OLB")
+      (Package "CDCE6214")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1333 28 833"))
+      (Path "F:\Projects\PCB\Library\Symbols\TX810.OLB")
+      (Package "TX810")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1333 28 833"))
       (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\WP7.OLB")
       (Package "WP7B-S040VA1-R8000")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 689 28 415"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 1333 28 833"))
       (Path "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\WP7.OLB")
       (Package "WP7B-P040VA1-R8000")
       (PartType "1")))

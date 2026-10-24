@@ -41,3 +41,18 @@ desktop.ini
 # 本地运行副本：含真实 API key，绝不入库
 # （模板见 LyncLibrarySynchronizer/config.toml，其 api_key 为空占位）
 /config.toml
+
+# 6. 大型可再生产物（2026-10-24 起）：OldLibrary 与 3D 模型不进 git
+#    OldLibrary 是本地备份（数百 MB 二进制）；3D STEP 可重新下载
+/OldLibrary/
+/3D/
+
+# 7. 生成物与备份（2026-10-25 起）
+#    _out: Allegro 临时输出（.brd / devices / 日志）
+#    stepFacetFiles4Map: Ultra Librarian 导入器解出来的 111 MB 临时面片目录
+#    CIS 备份: 每次写库自动生成的 12 MB .mdb 副本，不入库
+/_out/
+/Allegro/Footprints/stepFacetFiles4Map/
+/CIS/*.ldb
+/CIS/*.bak_*
+

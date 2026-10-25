@@ -1,0 +1,103 @@
+*$
+* LM3481
+*****************************************************************************
+* (C) Copyright 2013 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: WEBENCH Design Center, Texas Instruments Inc.
+* Part: LM3481
+* Date: 23JAN2013
+* Model Type: AVERAGE
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: AN-2094 LM3481
+* EVM Users Guide: SNVA461 September 2011
+* Datasheet: SNVS346E  APRIL 2012
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+****************************************************************************
+.SUBCKT LM3481_AVG VC FB GND VOUT VIN PARAMS: L=15u FSW=526.352k DCR=10m RSENSE=30m
+.PARAM c2_den = {1/{3.1426*3.1426*{FSW}*{FSW}} }
+E1 VD 9 SW 0 -1
+XA2 IL ILS S_XFER PARAMS: IN_OFFSET=0	GAIN=1 c0_num=1 c2_den={c2_den} 
++ c1_den=0 c0_den=1 out_ic=0 denorm_freq=1
+V5 REF 0 DC=1.26
+Rdcr VIN 20 {DCR}
+L 20 SW {L}
+Ro 9 VOUT 100M
+D1 VC REF DN4148
+.MODEL DN4148 D BV=100V CJO=4PF IS=7E-09 M=.45 N=2 RS=.8  TT=6E-09 VJ=.6V
+D2 0 VC DN4148
+G1 0 VC REF FB 4.5E-4
+REA VC 0 130000.0
+G_BIN SW 0 value = { IF(V(IV) > 0 , V(ILS) , V(IL))}
+E_BSLOPE VC VR value = {100.00M * V(D)}
+E_BAVERAGE IL 0 value = {I(VM1)*V(VD)/(1.0000 *V(SW))+I(VM1)}
+E_BDUTY D 0 value = { IF( {L} * {FSW} *(V(IP)-V(IV))/V(SW) < 0 , 0 , 
++ IF( {L} * {FSW} *(V(IP)-V(IV))/V(SW) > 0.95 , 0.95 , 
++ {L} * {FSW} *(V(IP)-V(IV))/V(SW)))}
+E_BVALLEY IV 0 value = { IF(V(IP)-V(VD)/( {L} * {FSW} 
++ *(1+V(VD)/V(SW))) < 0 , 0 , V(IP)-V(VD)/( {L} * {FSW} *(1+V(VD)/V(SW))))}
+E_BPEAK IP 0 value = { IF(V(VR) / {RSENSE}  < 0 , 0 , V(VR) / {RSENSE})}
+G_BOUT 0 17 value = { {L} * {FSW} *(V(IP)**2-V(IV)**2)/(2*V(VD))}
+VM1 17 VD
+.ENDS LM3481_AVG
+*$
+.SUBCKT S_XFER 1 2 PARAMS: IN_OFFSET=0	GAIN=1 c0_num=1 c2_den=1.583143494411528E-13 
++ c1_den=-2.5781249999999997E-7 c0_den=1 out_ic=0 denorm_freq=1
+ES_XFER 2 0 LAPLACE {IN_OFFSET+GAIN*V(1)}={(c0_num/(c2_den*s*s+c1_den*s+c0_den))}
+.ENDS
+*$
+.SUBCKT Cout 2 4
+R1 2 3 0.05333333333333334
+C1 3 1 3.42E-4 
+R3 5 4 150
+R2 2 4 2923976.6081871344
+R4 3 26 6.666666666666666E9
+R6 3 7 6666.666666666666
+C5 7 1 1.3680000000000002E-4 
+R7 3 10 6666.666666666666
+C6 10 1 1.3680000000000002E-4 
+R8 3 13 6666.666666666666
+C7 13 1 1.3680000000000002E-4
+C2 26 1 1.3680000000000002E-4 
+R9 3 28 6.6666666666666664E7
+C3 28 1 1.3680000000000002E-4 
+R10 3 29 666666.6666666666
+C4 29 1 1.3680000000000002E-4
+L8 1 5 0.2e-9
+R24 1 5 0.16
+L12 5 4 10e-12
+.ENDS
+*$
+.SUBCKT LDCR 1 2
++ PARAMS:  L=100u DCR=0.01
+L1 1 3 {L}
+R1 3 2 {DCR}
+.ENDS
+.SUBCKT CESR IN OUT
++ PARAMS:  C=100u ESR=0.01 
+C IN 1  {C} 
+RESR 1 OUT {ESR}
+.ENDS CESR
+*$

@@ -17,6 +17,7 @@ Library\
 │   └─ Vias\
 ├─ Datasheet\        数据手册 PDF（含 _Candidate）
 ├─ 3D\               STEP 模型（<器件名>.step）
+├─ Models\           厂商仿真模型（PSpice .LIB/.OLB、IBIS .ibs），一器件一目录
 ├─ docs\             使用手册 / 库报告 / CIS 报告 / 映射表
 ├─ OldLibrary\       历史备份（backup_* / replaced_at_* / oldlib_26-1）
 ├─ TZH_ECAD_CIS_ACCESS_V1.DBC   CIS 配置文件（DSN 名 CIS）
@@ -35,6 +36,7 @@ Library\
 | `Allegro\Vias\` | 过孔定义 | — |
 | `Datasheet\` | 数据手册 | — |
 | `3D\` | STEP 模型，命名 `<器件名>.step` | `steppath` |
+| `Models\` | 厂商仿真模型，一器件一目录：PSpice `.LIB/.OLB`、IBIS `.ibs`、示例网表、`SOURCE.md`（来源 ZIP/日期/SHA-256）；`MISSING.md` 记没有公开模型的器件 | PSpice 里 `Place → PSpice Component` 或 `Assign PSpice Model` |
 | `docs\` | **[使用手册](docs/使用手册.md)** / library_report / cis_report / mapping | — |
 | `OldLibrary\` | 历史备份，**只读** | — |
 

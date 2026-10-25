@@ -1,0 +1,24 @@
+** Profile: "TPS2663_STARTUP_EVM-trans"  [ C:\FPT_WS\FPT_DS\Part_Numbers\TPS2663\Source_FPT\PSPICE\TPS2663_PSPICE_TRANS\tps2663_trans-pspicefiles\tps2663_startup_evm\trans.sim ] 
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tps2663_trans.lib" 
+.LIB "../../../csd19537q3.lib" 
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_16.2\tools\PSpice\PSpice.ini file:
+
+*Analysis directives: 
+.TRAN  0 100m 0 10u 
+.OPTIONS ABSTOL= 10n
+.OPTIONS ITL1= 1500
+.OPTIONS ITL2= 400
+.OPTIONS ITL4= 400
+.OPTIONS VNTOL= 10.0u
+.PROBE V(alias(*)) I(alias(*)) 
+.INC "..\TPS2663_STARTUP_EVM.net" 
+
+
+.END

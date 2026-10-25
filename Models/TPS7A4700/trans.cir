@@ -1,0 +1,20 @@
+** Profile: "TPS7A4700_STARTUP-trans"  [ C:\Users\a0273407\Documents\Projects\git\Models\tps7a47_float\Sample Projects\TPS7A4700_TRANS\tps7a4700_trans-pspicefiles\tps7a4700_startup\trans.sim ] 
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tps7a4700_trans.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0273407\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 150m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TPS7A4700_STARTUP.net" 
+
+
+.END

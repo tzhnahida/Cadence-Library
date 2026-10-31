@@ -57,3 +57,6 @@ desktop.ini
 /CIS/*.ldb
 /CIS/*.bak_*
 
+
+# 备份文件（带时间戳后缀）
+*.bak_*

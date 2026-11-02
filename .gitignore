@@ -9,6 +9,7 @@
 *.asv
 
 # 2. 排除日志与交互文件
+*.laccdb
 *.jrl
 *.jrl,*
 *.tag
